@@ -10,7 +10,7 @@ An installable Python tool that encodes the paper's two-step gate (R0) and rules
 ### Install
 
 ```
-pip install git+https://github.com/kavanabj-ops/censoring-geometry
+pip install git+https://github.com/kavanabj-ops/censoring-geometry2026
 ```
 
 Or use it without installing (Python 3.8+, no dependencies beyond the standard library for the core check):
