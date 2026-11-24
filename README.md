@@ -108,4 +108,4 @@ Python 3.8+; the core check needs only the standard library. Analysis scripts ad
 
 ## Citing
 
-[Zenodo DOI placeholder — will be archived upon acceptance]
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24504134.svg)](https://doi.org/10.5281/zenodo.24504134)
