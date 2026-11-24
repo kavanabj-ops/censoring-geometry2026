@@ -97,6 +97,25 @@ CI runs the test suite and a CLI smoke test on Python 3.8/3.10/3.12 (`.github/wo
 | 75, 83 | figures |
 | 76–79 | δ_W grid, E6, sharp interval, Tobit m_l grid |
 
+## Test dataset
+
+The repository bundles a minimal demo dataset and a runner script:
+
+- `examples/demo_data_gdsc.csv` — 14 cells (6 mutant, 8 wild-type) in GDSC-like format (columns: cell_id, genotype, LN_IC50, MAX_CONC)
+- `examples/run_gdsc_demo.py` — computes the wild-type censoring rate from the CSV and feeds it into the R0-R5 gate
+
+Run it with:
+
+```
+python examples/run_gdsc_demo.py
+```
+
+Input and output are described in the script docstring. For a full independent
+installation test, see [TESTING.md](TESTING.md).
+
+The same workflow applies to any GDSC-format data: the gate needs only the four
+cell counts and the wild-type censoring rate (LN_IC50 > ln(MAX_CONC)).
+
 ## Data
 
 - GDSC1/GDSC2 fitted dose-response: Genomics of Drug Sensitivity in Cancer (release 27 Oct 2023), https://www.cancerrxgene.org

@@ -1,0 +1,15 @@
+cell_id,genotype,LN_IC50,MAX_CONC
+MUT_01,mutant,-1.8,1.0
+MUT_02,mutant,-1.4,1.0
+MUT_03,mutant,-0.9,1.0
+MUT_04,mutant,-0.7,1.0
+MUT_05,mutant,-0.3,1.0
+MUT_06,mutant,0.1,1.0
+WT_01,wildtype,2.4,1.0
+WT_02,wildtype,2.8,1.0
+WT_03,wildtype,3.1,1.0
+WT_04,wildtype,2.6,1.0
+WT_05,wildtype,3.4,1.0
+WT_06,wildtype,2.9,1.0
+WT_07,wildtype,3.0,1.0
+WT_08,wildtype,2.5,1.0
